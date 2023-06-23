@@ -30,8 +30,8 @@ public class EmailUtils {
 			helper.setTo(to);
 			
 			helper.addAttachment("Plans-Info", f);
-			//helper.addAttachment("plans.xls", f);
-			//helper.addAttachment("plans.pdf", f);
+			helper.addAttachment("plans.xls", f);
+			helper.addAttachment("plans.pdf", f);
 			mailSender.send(mimeMsg);
 		} catch (Exception e) {
 			e.printStackTrace();
