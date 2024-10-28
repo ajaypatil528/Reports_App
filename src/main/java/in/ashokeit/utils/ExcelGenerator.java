@@ -1,4 +1,4 @@
-package in.ashokeit.utils;
+package in.reports.utils;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,8 +15,8 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import in.ashokeit.entity.CitizenPlan;
-import in.ashokeit.repo.CitizenPlanRepository;
+import in.reports.entity.CitizenPlan;
+import in.reports.repo.CitizenPlanRepository;
 
 @Component
 public class ExcelGenerator {
