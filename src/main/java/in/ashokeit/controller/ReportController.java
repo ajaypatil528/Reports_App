@@ -1,4 +1,4 @@
-package in.ashokeit.controller;
+package in.reports.controller;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.fasterxml.jackson.annotation.JsonCreator.Mode;
 
-import in.ashokeit.entity.CitizenPlan;
-import in.ashokeit.request.SearchRequest;
-import in.ashokeit.service.ReportService;
+import in.reports.entity.CitizenPlan;
+import in.reports.request.SearchRequest;
+import in.reports.service.ReportService;
 
 	@Controller
 	public class ReportController {
