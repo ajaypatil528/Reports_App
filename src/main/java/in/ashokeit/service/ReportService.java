@@ -1,11 +1,11 @@
-package in.ashokeit.service;
+package in.reports.service;
 
 import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
-import in.ashokeit.entity.CitizenPlan;
-import in.ashokeit.request.SearchRequest;
+import in.reports.entity.CitizenPlan;
+import in.reports.request.SearchRequest;
 
 public interface ReportService {
 
