@@ -1,4 +1,4 @@
-package in.ashokeit.request;
+package in.reports.request;
 
 import java.time.LocalDate;
 
