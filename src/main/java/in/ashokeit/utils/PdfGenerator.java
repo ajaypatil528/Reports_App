@@ -1,4 +1,4 @@
-package in.ashokeit.utils;
+package in.reports.utils;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -18,7 +18,7 @@ import com.lowagie.text.Paragraph;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
 
-import in.ashokeit.entity.CitizenPlan;
+import in.reports.entity.CitizenPlan;
 
 @Component
 public class PdfGenerator {
