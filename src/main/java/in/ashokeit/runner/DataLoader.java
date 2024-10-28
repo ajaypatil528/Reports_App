@@ -1,4 +1,4 @@
-package in.ashokeit.runner;
+package in.reports.runner;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -9,8 +9,8 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-import in.ashokeit.entity.CitizenPlan;
-import in.ashokeit.repo.CitizenPlanRepository;
+import in.reports.entity.CitizenPlan;
+import in.reports.repo.CitizenPlanRepository;
 
 	@Component
 	public class DataLoader implements ApplicationRunner {
