@@ -1,4 +1,4 @@
-package in.ashokeit.service;
+package in.reports.service;
 
 import java.io.FileOutputStream;
 import java.time.LocalDate;
@@ -26,12 +26,12 @@ import com.lowagie.text.Paragraph;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
 
-import in.ashokeit.entity.CitizenPlan;
-import in.ashokeit.repo.CitizenPlanRepository;
-import in.ashokeit.request.SearchRequest;
-import in.ashokeit.utils.EmailUtils;
-import in.ashokeit.utils.ExcelGenerator;
-import in.ashokeit.utils.PdfGenerator;
+import in.reports.entity.CitizenPlan;
+import in.reports.repo.CitizenPlanRepository;
+import in.reports.request.SearchRequest;
+import in.reports.utils.EmailUtils;
+import in.reports.utils.ExcelGenerator;
+import in.reports.utils.PdfGenerator;
 
 	@Service
 	public class ReportServiceImpl implements ReportService {
