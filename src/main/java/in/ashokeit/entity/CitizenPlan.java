@@ -1,4 +1,4 @@
-package in.ashokeit.entity;
+package in.reports.entity;
 
 import java.time.LocalDate;
 
